@@ -7,7 +7,7 @@
 //
 
 #import "Atom.h"
-#import "Atom+Nuclear.h"
+
 
 @implementation Atom
 
@@ -27,7 +27,7 @@
 }
 
 // 实现协议 Writer方法
-// 现在Atom类遵循了Writer协议，并向Atom对象发送了一条写入消息，将化学元素 名称写入一个文件中。
+// 现在Atom类遵循了Writer协议，并向Atom对象发送了一条写入消息，将化学元素"None" 名称写入一个文件中。
 - (void)write:(NSFileHandle *)file{
     NSData *data = [self.chemicalElement
                     dataUsingEncoding:NSUTF8StringEncoding];

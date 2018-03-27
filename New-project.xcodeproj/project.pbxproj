@@ -14,7 +14,7 @@
 		9C5EF7EE2064E1620035BD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5EF7EC2064E1620035BD3E /* LaunchScreen.storyboard */; };
 		9C5EF7F12064E1620035BD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EF7F02064E1620035BD3E /* main.m */; };
 		9C5EF7FA206537370035BD3E /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EF7F9206537370035BD3E /* Atom.m */; };
-		9C5EF7FE20654DD80035BD3E /* Atom+Nuclear.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EF7FD20654DD80035BD3E /* Atom+Nuclear.m */; };
+		9C5EF801206A79AD0035BD3E /* Atom+Nuclear.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EF800206A79AD0035BD3E /* Atom+Nuclear.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		9C5EF7F8206537370035BD3E /* Atom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
 		9C5EF7F9206537370035BD3E /* Atom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
 		9C5EF7FB206546D90035BD3E /* Writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Writer.h; sourceTree = "<group>"; };
-		9C5EF7FC20654DD80035BD3E /* Atom+Nuclear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Atom+Nuclear.h"; sourceTree = "<group>"; };
-		9C5EF7FD20654DD80035BD3E /* Atom+Nuclear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Atom+Nuclear.m"; sourceTree = "<group>"; };
+		9C5EF7FF206A79AD0035BD3E /* Atom+Nuclear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Atom+Nuclear.h"; sourceTree = "<group>"; };
+		9C5EF800206A79AD0035BD3E /* Atom+Nuclear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Atom+Nuclear.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 				9C5EF7F8206537370035BD3E /* Atom.h */,
 				9C5EF7F9206537370035BD3E /* Atom.m */,
 				9C5EF7FB206546D90035BD3E /* Writer.h */,
-				9C5EF7FC20654DD80035BD3E /* Atom+Nuclear.h */,
-				9C5EF7FD20654DD80035BD3E /* Atom+Nuclear.m */,
+				9C5EF7FF206A79AD0035BD3E /* Atom+Nuclear.h */,
+				9C5EF800206A79AD0035BD3E /* Atom+Nuclear.m */,
 				9C5EF7E72064E1620035BD3E /* Main.storyboard */,
 				9C5EF7EA2064E1620035BD3E /* Assets.xcassets */,
 				9C5EF7EC2064E1620035BD3E /* LaunchScreen.storyboard */,
@@ -158,7 +158,7 @@
 				9C5EF7F12064E1620035BD3E /* main.m in Sources */,
 				9C5EF7FA206537370035BD3E /* Atom.m in Sources */,
 				9C5EF7E32064E1620035BD3E /* AppDelegate.m in Sources */,
-				9C5EF7FE20654DD80035BD3E /* Atom+Nuclear.m in Sources */,
+				9C5EF801206A79AD0035BD3E /* Atom+Nuclear.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,13 +22,15 @@ int main(int argc, char * argv[]) {
         NSString *dateString = [dateFormat stringFromDate:dateTime];
         NSLog(@"today's date is %@", dateString);
         
-        // 输出：类的结果
-        Atom *atom = [[Atom alloc]init];
-        NSLog(@"Atom chemical element name:%@", atom.chemicalElement);
+        // 输出：Atom类的结果: atom.chemicalElement
+        Atom *atom = [[Atom alloc] init];
+        NSLog(@"Atom chemical element name:%@", atom.chemicalElement); // 输出结果是 NSString 指针
         
-        //
-        Atom *atom2 =[[Atom alloc] init];
-        NSLog(@"Atomic number = %lu", [atom2 atomicNumber]);
+        // [atom2 atomicNumber]
+        // 该分类添加了一个为Atom对象返回原子数目的实例方法
+        Atom *atom2 = [[Atom alloc] init];
+        NSLog(@"Atomic number = %lu",[atom2 atomicNumber]); // 输出结果是 NSUInteger 型
+       
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
