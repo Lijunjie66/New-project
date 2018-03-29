@@ -11,7 +11,7 @@
 
 @implementation Atom
 
-//初始化方法：init()方法将chemicalElement属性支持的实例变量初始化为文本字符串None
+// 1、初始化方法：init()方法将chemicalElement属性支持的实例变量初始化为文本字符串None
 - (id)init{
     if ((self = [super init])) {
         
@@ -20,13 +20,19 @@
     }
     return self;
 }
-
-// 实例方法的实现
-- (NSUInteger)massNumber{
+/*
+// 1、实例方法的实现
+- (NSUInteger) massNumber{
     return 0;
 }
+*/
+// 3、对Atom类进行重构
+- (NSUInteger) massNumber {
+    return self.protons + self.neutrons; // 原子数是将原子内质子数和中子数相加而得到的数值。
+}
 
-// 实现协议 Writer方法
+
+// 2、实现协议 Writer方法
 // 现在Atom类遵循了Writer协议，并向Atom对象发送了一条写入消息，将化学元素"None" 名称写入一个文件中。
 - (void)write:(NSFileHandle *)file{
     NSData *data = [self.chemicalElement
